@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import google.generativeai as genai
 
-api_key="enter_your_api_key"
+api_key="enter_your_api_key" # i have not added my api key but you cann add yours to use this app
 genai.configure(api_key=api_key)
 
 ## function to load Gemini Pro model and get repsonses
